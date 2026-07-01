@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hansika | BCA Portfolio</title>
+  <meta name="description" content="Portfolio of Hansika, BCA student at National Post Graduate College — projects, skills, resume, and contact." />
+
+  <!-- Icons -->
+  <link rel="icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin />
+  <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap)" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a class="logo" href="#top" aria-label="Hansika home">
+        <span class="logo-mark">H</span><span class="logo-text">Hansika</span>
+      </a>
+
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.64 13a9 9 0 1 1-10.63-10.6 1 1 0 0 1 1.17 1.25A7 7 0 1 0 19.35 11.8 1 1 0 0 1 21.64 13z"/></svg>
+      </button>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a class="btn btn-sm" href="assets/Hansika_Resume.pdf" target="_blank" rel="noopener">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="section hero">
+      <div class="container grid-2">
+        <div class="hero-text">
+          <p class="eyebrow">BCA Student • National Post Graduate College</p>
+          <h1>Hi, I’m <span class="accent">Hansika</span> — building clean, usable web apps.</h1>
+          <p class="subhead">Full‑stack learner focused on JavaScript, React, Node.js, and databases. I enjoy turning ideas into accessible, performant products.</p>
+          <div class="hero-cta">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn-outline" href="#contact">Contact Me</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>12+</strong> projects</li>
+            <li><strong>4</strong> hackathons</li>
+            <li><strong>3</strong> internships</li>
+          </ul>
+        </div>
+        <div class="hero-media">
+          <div class="card profile-card">
+            <img src="assets/hansika.jpg" alt="Portrait of Hansika" class="avatar" />
+            <div class="profile-meta">
+              <h3>Hansika</h3>
+              <p>BCA @ NPGC, Lucknow</p>
+              <div class="tags">
+                <span>React</span><span>Node</span><span>SQL</span><span>UI/UX</span>
+              </div>
+              <div class="links">
+                <a href="mailto:hansika@example.com" aria-label="Email">Email</a>
+                <a href="[github.com](https://github.com/hansika)" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+                <a href="[linkedin.com](https://linkedin.com/in/hansika)" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+              </div>
+            </div>
+          </div>
+          <div class="glow"></div>
+        </div>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">Scroll</div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>About</h2>
+          <p>I’m a Bachelor of Computer Applications student at National Post Graduate College. I love full‑stack development and human‑centered design. My current focus is on modern front‑end architectures, API design, and database modeling.</p>
+          <p>Outside of code, I sketch interfaces, write tech notes, and contribute to student developer communities.</p>
+          <div class="cta-row">
+            <a class="btn btn-soft" href="assets/Hansika_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+            <a class="btn-text" href="#contact">Let’s collaborate →</a>
+          </div>
+        </div>
+        <div>
+          <ul class="highlights">
+            <li>
+              <h3>What I’m learning</h3>
+              <p>TypeScript, Next.js 14 app router, Prisma ORM, and system design fundamentals.</p>
+            </li>
+            <li>
+              <h3>What I value</h3>
+              <p>Accessibility, clarity, small details, and shipping iteratively.</p>
+            </li>
+            <li>
+              <h3>Goals 2026</h3>
+              <p>Ship 3 production‑grade apps, publish 6 articles, and mentor juniors at college.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skill-groups">
+          <div class="skill-card">
+            <h3>Front‑end</h3>
+            <ul>
+              <li>HTML5, CSS3, Sass</li>
+              <li>JavaScript (ES2023), TypeScript</li>
+              <li>React, Next.js, Redux Toolkit</li>
+              <li>Tailwind, Framer Motion</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Back‑end</h3>
+            <ul>
+              <li>Node.js, Express, Next.js API</li>
+              <li>REST, GraphQL (Apollo)</li>
+              <li>Authentication (JWT, OAuth)</li>
+              <li>WebSockets, Socket.IO</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Databases & DevOps</h3>
+            <ul>
+              <li>PostgreSQL, MySQL, MongoDB</li>
+              <li>Prisma, Sequelize, Mongoose</li>
+              <li>Docker, GitHub Actions, Vercel</li>
+              <li>CI/CD, Testing (Jest, Playwright)</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Design</h3>
+            <ul>
+              <li>Figma, Wireframing, Prototyping</li>
+              <li>Design Systems, Accessibility (WCAG)</li>
+              <li>Usability Testing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p class="muted">Selected work showcasing front‑end craft and full‑stack execution.</p>
+        </div>
+
+        <div class="project-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <img src="assets/projects/taskflow.jpg" alt="Dashboard of TaskFlow project management app" loading="lazy" />
+            <div class="project-body">
+              <h3>TaskFlow</h3>
+              <p>Kanban task manager with real‑time updates, drag‑and‑drop, and team workspaces.</p>
+              <ul class="tech">
+                <li>Next.js</li><li>TypeScript</li><li>PostgreSQL</li><li>Prisma</li><li>Socket.IO</li>
+              </ul>
+              <div class="actions">
+                <a class="btn btn-sm" href="[taskflow.example.com](https://taskflow.example.com)" target="_blank" rel="noopener">Live</a>
+                <a class="btn btn-sm btn-outline" href="[github.com](https://github.com/hansika/taskflow)" target="_blank" rel="noopener">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <img src="assets/projects/campusconnect.jpg" alt="Mobile screens of CampusConnect app" loading="lazy" />
+            <div class="project-body">
+              <h3>CampusConnect</h3>
+              <p>Community hub for NPGC students: events, clubs, notes sharing, and polls.</p>
+              <ul class="tech">
+                <li>React</li><li>Express</li><li>MongoDB</li><li>JWT</li>
+              </ul>
+              <div class="actions">
+                <a class="btn btn-sm" href="[campusconnect.example.com](https://campusconnect.example.com)" target="_blank" rel="noopener">Live</a>
+                <a class="btn btn-sm btn-outline" href="[github.com](https://github.com/hansika/campusconnect)" target="_blank" rel="noopener">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <img src="assets/projects/foodlens.jpg" alt="FoodLens recipe search interface" loading="lazy" />
+            <div class="project-body">
+              <h3>FoodLens</h3>
+              <p>Recipe search with nutrition estimates and pantry‑based suggestions.</p>
+              <ul class="tech">
+                <li>Next.js</li><li>Edge Functions</li><li>Tailwind</li><li>Open API</li>
+              </ul>
+              <div class="actions">
+                <a class="btn btn-sm" href="[foodlens.example.com](https://foodlens.example.com)" target="_blank" rel="noopener">Live</a>
+                <a class="btn btn-sm btn-outline" href="[github.com](https://github.com/hansika/foodlens)" target="_blank" rel="noopener">Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section alt">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <article class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <h3>Web Development Intern — TechVerse</h3>
+              <p class="muted">Jun 2025 – Aug 2025</p>
+              <ul>
+                <li>Built internal dashboard modules in React, reducing load times by 28%.</li>
+                <li>Designed REST APIs with Express and PostgreSQL; added JWT auth.</li>
+                <li>Wrote Playwright tests and set up CI on GitHub Actions.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <h3>Student Developer — NPGC Clubs</h3>
+              <p class="muted">2024 – Present</p>
+              <ul>
+                <li>Led a 5‑member team to build the CampusConnect portal.</li>
+                <li>Organized code labs on Git and React for juniors.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements" class="section">
+      <div class="container">
+        <h2>Achievements</h2>
+        <ul class="achievements">
+          <li><strong>Winner</strong> — City Hackathon 2025, Web category</li>
+          <li><strong>Top 5%</strong> — LeetCode Weekly Contest (x3)</li>
+          <li><strong>Speaker</strong> — UI Accessibility Basics workshop at NPGC</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section alt">
+      <div class="container grid-2">
+        <div>
+          <h2>Contact</h2>
+          <p>If you’d like to discuss a project, internship, or collaboration, send a message. I usually respond within 24 hours.</p>
+          <ul class="contact-list">
+            <li>Email: <a href="mailto:hansika@example.com">hansika@example.com</a></li>
+            <li>LinkedIn: <a href="[linkedin.com](https://linkedin.com/in/hansika)" target="_blank" rel="noopener">linkedin.com/in/hansika</a></li>
+            <li>GitHub: <a href="[github.com](https://github.com/hansika)" target="_blank" rel="noopener">github.com/hansika</a></li>
+          </ul>
+        </div>
+
+        <form id="contactForm" class="card form-card" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" autocomplete="name" required />
+            <span class="error" id="nameError"></span>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+            <span class="error" id="emailError"></span>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <span class="error" id="messageError"></span>
+          </div>
+          <div class="form-row">
+            <button class="btn" type="submit">Send Message</button>
+            <span class="form-status" id="formStatus" role="status" aria-live="polite"></span>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="logo" href="#top"><span class="logo-mark">H</span><span class="logo-text">Hansika</span></a>
+          <p class="muted">Designed and built with care. © <span id="year"></span></p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="social">
+          <li><a href="mailto:hansika@example.com">Email</a></li>
+          <li><a href="[github.com](https://github.com/hansika)" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="[linkedin.com](https://linkedin.com/in/hansika)" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
